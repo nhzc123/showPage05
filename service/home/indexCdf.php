@@ -18,9 +18,9 @@ switch ($type)
 {
   case 2:
 		{
-		if($_SESSION['totalNum']!=NULL){
+		if($_SESSION['05totalNum']!=NULL){
 
-			$result=$_SESSION['totalNum'];
+			$result=$_SESSION['05totalNum'];
      		 $callback=$_GET['callback'];
 			echo $callback."($result)";
 		      break;
@@ -133,20 +133,20 @@ switch ($type)
           mysql_close($con);
 
 
-      $_SESSION['num020']=json_encode($num020);
-      $_SESSION['num2040']=json_encode($num2040);
-      $_SESSION['num4060']=json_encode($num4060);
-      $_SESSION['num6080']=json_encode($num6080);
-      $_SESSION['num80100']=json_encode($num80100);
+      $_SESSION['05num020']=json_encode($num020);
+      $_SESSION['05num2040']=json_encode($num2040);
+      $_SESSION['05num4060']=json_encode($num4060);
+      $_SESSION['05num6080']=json_encode($num6080);
+      $_SESSION['05num80100']=json_encode($num80100);
 			$result=json_encode($totalNum);
-	  $_SESSION['totalNum']=$result;
+	  $_SESSION['05totalNum']=$result;
       $callback=$_GET['callback'];
 			echo $callback."($result)";
       break;
 		}
   case 3:
 		{
-			$result=$_SESSION['num020'];
+			$result=$_SESSION['05num020'];
     	$callback=$_GET['callback'];
 			echo $callback."($result)";
       break;
@@ -154,7 +154,7 @@ switch ($type)
 
   case 4:
 		{
-			$result=$_SESSION['num2040'];
+			$result=$_SESSION['05num2040'];
     	$callback=$_GET['callback'];
 			echo $callback."($result)";
       break;
@@ -163,7 +163,7 @@ switch ($type)
   case 5:
 		{
 
-			$result=$_SESSION['num4060'];
+			$result=$_SESSION['05num4060'];
     	$callback=$_GET['callback'];
 			echo $callback."($result)";
       break;
@@ -171,7 +171,7 @@ switch ($type)
 
   case 6:
 		{
-			$result=$_SESSION['num6080'];
+			$result=$_SESSION['05num6080'];
     	$callback=$_GET['callback'];
 			echo $callback."($result)";
       break;
@@ -179,7 +179,7 @@ switch ($type)
 
   case 7:
 		{
-			$result=$_SESSION['num80100'];
+			$result=$_SESSION['05num80100'];
     	$callback=$_GET['callback'];
 			echo $callback."($result)";
       break;
