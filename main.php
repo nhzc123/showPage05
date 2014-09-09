@@ -7,7 +7,7 @@ session_start();
 //计算一个小时内的平均CDF
 //目前switchEngagement时间是1~5月份的 注意区别
 //还需要改的地方有在loadEngagement里面的时间戳
-$startTime = 1378738800;
+$startTime = 1356922800;
 $_SESSION['timeStamp']=$startTime;
 if($_SESSION['access']==1)
 {

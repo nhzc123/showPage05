@@ -217,8 +217,6 @@ require(
             <li><a href="context.php" >Context</a></li>
             <li><a href="load.php" class="active">Load</a></li>            
             <li><a href="user.php" >User</a></li>
-            <li><a href="switch.php">Switch</a></li>
-            <li><a href="bitRateType.php">BitRate</a></li>
          </ul>
         </div>
         
